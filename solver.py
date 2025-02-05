@@ -8,7 +8,7 @@ Created on Wed Feb  5 22:22:18 2025
 import math
 
 def solve_quadratic(a: float, b: float, c: float):
-    """Oblicza pierwiastki równania kwadratowego ax^2 + bx + c = 0"""
+    
     if a == 0:
         raise ValueError("Współczynnik 'a' nie może być zerowy.")
 
